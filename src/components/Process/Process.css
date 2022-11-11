@@ -1,0 +1,148 @@
+.Process {
+    width: 100%;
+    background: url("../../assets/img/Shapebg.png") no-repeat center/cover;
+    background-position: top;
+    padding-top: 105px;
+    padding-bottom: 160px;
+}
+
+
+.Process .top {
+    margin-bottom: 69px;
+}
+
+.Process .top p.text,
+.Process .top h2.title {
+    color: rgba(255, 255, 255, 1) !important;
+    text-align: center;
+
+}
+
+.cards {
+    display: inline-block;
+    padding-top: 41px;
+    padding-left: 33px;
+    padding-right: 58px;
+    padding-bottom: 56px;
+    background: white;
+}
+
+
+.cards .number {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #171B1B;
+}
+
+.cards .service {
+    font-family: 'Ultra';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #171B1B;
+    margin-top: 96px;
+    margin-bottom: 18px;
+}
+
+.cards .pharg {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.496405);
+}
+
+
+.Process .Recipetext {
+    margin-top: 185px;
+    margin-bottom: 69px;
+
+}
+
+.Process .Recipetext p,
+.Process .Recipetext h2 {
+    text-align: left !important;
+    color: white !important;
+}
+
+.Process .Recipetext h2 {
+    max-width: 617px;
+}
+
+.Process .delicious {
+    font-family: 'Ultra';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #171B1B;
+}
+
+.Process .spantext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Process .spantext .flows {
+    max-width: 322px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.496405);
+}
+
+.Process .spantext .price {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #171B1B;
+    align-items: center;
+
+}
+
+.Process .wheat {
+    margin-top: 16px;
+    max-width: 206px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #171B1B
+}
+
+.Process .box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.Process .btn {
+    display: block !important;
+    margin: auto !important;
+    border: 1px solid rgba(255, 255, 255, 0.2957) !important;
+    border-radius: 2px !important;
+    font-family: 'Oswald' !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-transform: uppercase !important;
+    color: white !important;
+    padding: 13px 59px !important;
+    margin-top: 60px !important;
+}

@@ -1,0 +1,112 @@
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Ultra', serif; */
+
+.Fresh {
+    width: 100%;
+    margin-top: 105px;
+    padding-bottom: 100px;
+}
+
+.Fresh .freshtext {
+    text-align: left;
+    margin-bottom: 69px;
+
+}
+
+.Fresh .homemade {
+    background: url("../../assets/img/Bitmap\ \(2\).png") no-repeat center/cover;
+    padding-top: 180px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 33px;
+
+}
+
+.Fresh .homemade p.text {
+    color: white !important;
+}
+
+.Fresh .homemade .home {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    font-family: 'Ultra', serif;
+    max-width: 294px;
+}
+
+.Fresh .homemade .spantext {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Fresh .homemade .spantext .grey {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.502972);
+}
+
+.homemade .spantext .white {
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.Fresh .spanbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Fresh .spanbottom .left {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #171B1B;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Fresh .spanbottom .right {
+    font-family: 'Ultra', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: right;
+    color: #171B1B;
+}
+
+.Fresh .bottom {
+    margin-top: 32px;
+    margin-bottom: 99px;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    display: block !important;
+    margin: auto !important;
+    border: 1px solid rgba(23, 27, 27, 0.240602) !important;
+    border-radius: 2px !important;
+    font-family: 'Oswald' !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    text-transform: uppercase !important;
+    color: #171B1B !important;
+    padding: 13px 59px !important;
+}
+
+@media(max-width:768px) {
+    
+    .Fresh .css-1yuq9pa-MuiPaper-root-MuiCard-root {
+        margin: auto;
+    }
+}

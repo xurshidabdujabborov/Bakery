@@ -1,0 +1,220 @@
+.header .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: white;
+  padding: 20px 0px;
+  box-shadow: unset;
+}
+
+.header .css-1oqqzyl-MuiContainer-root {
+  padding: 0;
+}
+
+.header .css-r6ewbb-MuiToolbar-root {
+  height: auto;
+  min-height: auto;
+}
+
+.header .css-r6ewbb-MuiToolbar-root a {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 400;
+  color: black;
+  font-family: "Ultra";
+  margin-right: 70px;
+}
+
+.header .css-r6ewbb-MuiToolbar-root a:hover {
+  color: rgb(249, 191, 119);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.header .MuiBox-root button {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: black !important;
+  font-family: "DM Sans", sans-serif;
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+.header .css-1xnmwiw-MuiButtonBase-root-MuiButton-root {
+  padding: 12px 40px;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.header .css-1xnmwiw-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: rgb(249, 191, 119);
+}
+
+.header .header_title {
+  width: 100%;
+  background: url("../../assets/img/header.jpg") no-repeat;
+  /* background-size: fill; */
+  position: relative;
+  background-color: rgba(231, 212, 190, 0.44);
+}
+
+.header .header_title .chef {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.header .header_title p:first-of-type {
+  padding-top: 160px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 20px;
+}
+
+.header .header_title h1 {
+  font-size: 72px;
+  line-height: 80px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 30px;
+  font-family: "Ultra", serif;
+}
+
+.header .header_title .fresh {
+  font-family: 'Ultra';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 80px;
+  color: #000000;
+  margin-bottom: 27px;
+
+}
+
+.header .header_title .headertext {
+  margin-left: 50px;
+}
+
+.header .header_title p:last-of-type {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: black;
+  padding-bottom: 240px;
+  font-family: "DM Sans", sans-serif;
+}
+
+@media(max-width:1220px) {
+
+  .header .header_title .chef {
+
+    max-width: 615px;
+  }
+
+  .header .header_title .fresh {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+
+}
+
+@media(max-width:1120px) {
+  .header .header_title .chef {
+
+    max-width: 670px;
+  }
+}
+
+ @media(max-width:1110px) {
+  .header .header_title .chef {
+
+    max-width: 500px;
+  }
+
+  .header .header_title p:last-of-type {
+    padding-bottom: 120px;
+  }
+
+} 
+
+@media(max-width:996px) {
+
+  /* .header .header_title {
+    background-color: white;
+    padding-bottom: 200px;
+  }
+
+  .header .header_title .headertext {
+    margin-top: -100px;
+
+
+  } */
+
+  /* .header .header_title .chef {
+
+    max-width: 800px;
+    right: 200px;
+  }
+
+  
+
+   */
+
+  .header .css-1xnmwiw-MuiButtonBase-root-MuiButton-root{
+    margin-right: 60px;
+  }
+
+  .header .header_title p:last-of-type {
+    padding-bottom: 20px;
+  }
+  .header .header_title .chef {
+
+    max-width: 470px;
+
+  }
+
+  .header .header_title .fresh {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .header .header_title p:last-of-type {
+    padding-bottom: 100px;
+    font-size: 18px;
+  }
+
+}
+
+@media(max-width:768px) {
+  .header .header_title p:last-of-type {
+    padding-bottom: 100px;
+   
+  }
+
+  .header .header_title .chef {
+
+  display: none;
+
+  }
+  
+  .header .header_title .fresh {
+    font-size: 30px;
+    line-height: 60px;
+  }
+
+  .header .header_title .chef {
+    top: 400px;
+    max-width: 450px;
+
+  }
+
+ 
+}

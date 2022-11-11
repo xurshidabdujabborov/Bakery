@@ -1,0 +1,46 @@
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Ultra', serif; */
+
+
+.fetures {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.fetures .css-0 {
+    text-align: left;
+    margin-top: 70px;
+    padding: 30px 50px;
+}
+
+.fetures .css-0:hover {
+    background-color: rgba(249, 191, 119, 1);
+}
+
+.fetures .css-0 h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 18px;
+    font-family: 'Ultra', serif;
+    text-align: left;
+}
+
+.fetures .css-0 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.4964);
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+
+ .Svgbg svg{
+    fill: rgba(249, 191, 119, 1);
+   
+}

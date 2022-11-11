@@ -1,0 +1,104 @@
+footer {
+    width: 100%;
+    background: url("../../assets/img/footer.png") no-repeat center/cover;
+    background-position: top;
+    padding-top: 73px;
+}
+
+footer .footertop .logo {
+    font-family: 'Ultra';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+}
+
+footer .footertop li .main {
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer .footertop ul li .links {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+footer .footertop .social {
+    color: white;
+
+}
+
+footer .footertop {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 69px;
+}
+
+footer .footerbottom .copy {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.502972);
+
+}
+footer .footerbottom {
+    margin-top: 42px;
+}
+
+
+footer .footerbottom .link {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+footer .social .css-i4bv87-MuiSvgIcon-root {
+    fill: white;
+    
+ 
+
+
+}
+footer .social{
+    display: flex;
+    gap: 8px;
+}
+
+footer .social .Facebook{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 18px 25px;
+    background-color: rgba(245, 174, 92, 1);
+}
+footer .social .Twitter{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 16px 16px;
+    background-color: rgba(245, 174, 92, 1);
+}
+
+footer .social .Instagram{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 16px 16px;
+    background-color: rgba(245, 174, 92, 1);
+}
+
+
